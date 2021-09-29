@@ -8,8 +8,7 @@ final class LoopData {
 	/**
 	 * This method kicks off the program.
 	 */
-	
-	 private LoopData() {
+	private LoopData() {
 
 	} //end private constructor
 
@@ -23,7 +22,6 @@ final class LoopData {
 			System.out.println("Limit: " + limit);
 			limit--;
 		}
-		
 		System.out.println("Done!");
 
 	} //end main
