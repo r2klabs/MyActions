@@ -7,10 +7,9 @@ final class LoopData {
 
 	/**
 	 * This method kicks off the program.
-	 * 
 	 */
-
-	private LoopData() {
+	
+	 private LoopData() {
 
 	} //end private constructor
 
