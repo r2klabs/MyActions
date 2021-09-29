@@ -10,18 +10,22 @@ class LoopData {
 	 * @param args - doesn't require arguments.
 	 */
 
-	public static void main(String[] args){
+	private LoopData(){
+
+	} //end private constructor
+
+	public static void main(String[] args) {
 
 
 		int limit = Integer.parseInt(args[0]);
 
-		while (limit >= 0){
+		while (limit >= 0) {
 
-			System.out.println("Limit: " + limit);	
+			System.out.println("Limit: " + limit);
 			limit--;
-		}		
+		}
 		
-		System.out.println ("Done!");
+		System.out.println("Done!");
 
 	} //end main
 
