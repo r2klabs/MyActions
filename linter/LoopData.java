@@ -3,18 +3,18 @@ package linter;
 /**
  * This is a sample Java program to run through the linter.
  */
-class LoopData {
+final class LoopData {
 
 	/**
 	 * This method kicks off the program.
-	 * @param args - doesn't require arguments.
+	 * 
 	 */
 
-	private LoopData(){
+	private LoopData() {
 
 	} //end private constructor
 
-	public static void main(String[] args) {
+	public static void main(final String[] args) {
 
 
 		int limit = Integer.parseInt(args[0]);
