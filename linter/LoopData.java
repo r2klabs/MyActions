@@ -1,3 +1,5 @@
+package linter;
+
 /**
  * This is a sample Java program to run through the linter.
  */
